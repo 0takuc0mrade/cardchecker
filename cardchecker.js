@@ -31,9 +31,11 @@ function isValidCardNumber(cardNumber) {
   if (sum % 10 === 0) {
     console.log('Valid card number');
     return true;
+  } else {
+    console.log('Invalid card number');
   }
 
   return false;
 }
 
-isValidCardNumber(4137894711755904);
+isValidCardNumber(5199110741698077);
